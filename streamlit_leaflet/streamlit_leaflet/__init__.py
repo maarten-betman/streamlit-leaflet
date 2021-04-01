@@ -29,5 +29,5 @@ if not _RELEASE:
     import streamlit as st
 
     st.subheader("Component with constant args")
-    coords = my_component(map_center=[51.505, -0.09], map_zoom=10)
+    coords = my_component(map_center=[51.505, -0.09], map_zoom=10, key=42)
     st.write(coords)
