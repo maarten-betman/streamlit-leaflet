@@ -10,11 +10,15 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-leaflet": "^3.1.0",
+    "react-leaflet-draw": "^0.19.7",
     "react-scripts": "3.4.1",
     "streamlit-component-lib": "^1.2.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,12 +30,19 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
-  "homepage": "."
+  "homepage": ".",
+  "devDependencies": {
+    "@types/leaflet": "^1.7.0"
+  }
 }

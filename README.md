@@ -15,7 +15,7 @@ A Component can be used in any Streamlit app, can pass data between Python and f
 import streamlit.components.v1 as components
 
 # Declare the component:
-my_component = components.declare_component("my_component", path="frontend/build")
+my_component = components.declare_component("streamlit_leaflet", path="frontend/build")
 
 # Use it:
 my_component(greeting="Hello", name="World")
@@ -58,7 +58,7 @@ $ streamlit run my_component/__init__.py  # run the example
 ```
 * If all goes well, you should see something like this:
 ![Quickstart Success](quickstart.png)
-* Modify the frontend code at `my_component/frontend/src/MyComponent.tsx`.
+* Modify the frontend code at `my_component/frontend/src/StreamlitLeaflet.tsx`.
 * Modify the Python code at `my_component/__init__.py`.
 
 ## Examples

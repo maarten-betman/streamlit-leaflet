@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import MyComponent from "./MyComponent"
+import StreamlitLeaflet from "./StreamlitLeaflet"
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComponent />
+    <StreamlitLeaflet />
   </React.StrictMode>,
   document.getElementById("root")
 )

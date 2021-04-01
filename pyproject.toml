@@ -6,6 +6,7 @@ authors = ["maarten-betman <maarten.betman@boskalis.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+streamlit = "^0.79.0"
 
 [tool.poetry.dev-dependencies]
 
